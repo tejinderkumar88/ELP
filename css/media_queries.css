@@ -1,0 +1,80 @@
+@media screen and ( max-width: 1200px) {
+}
+
+@media screen and ( max-width: 1024px) {
+	.slider_min .caption h1, .index-content h1{font-size:5.2vw;}
+	.intro-attachment li{ margin-right: 16px; }
+}
+
+@media screen and ( max-width: 990px) {
+.owl-theme .owl-nav.disabled + .owl-dots {bottom:0px;}
+.slider_min .caption{top:15%;}
+.intro-attachment li{ margin: 0px 4px 20px 4px; }
+
+.slider_min .caption span{font-size:2.5vw;}
+.slider_min .caption a{margin-top:18px;height:50px;line-height:50px;}
+ .show-play a{ bottom:0; }
+}
+
+@media screen and ( max-width: 768px) {
+ .login_r a.regi, .login_r a.login-in{font-size:25px;}
+ .col-5, .col-7{width:100%;}
+ .about-us p{padding-right:0px;padding-bottom:20px;}
+ .index-content li{padding-top:20px;}
+ .index-content li a{padding:20px 15px;font-size:25px;}
+ .intro-attachment li{ width: 47%; }
+ .owl-nav .owl-prev{ top:41px; }
+ .owl-nav .owl-next{ top:41px; }
+}
+
+@media screen and ( max-width: 767px) {
+}
+
+@media screen and ( max-width: 739px) {
+}
+
+@media screen and ( max-width: 568px) {
+ .login_r a.regi, .login_r a.login-in{font-size:20px;}
+ .slider_min .caption h1, .index-content h1{font-size:28px;}
+ .slider_min .caption span{font-size:15px;font-weight:normal;}
+ .slider_min .caption a{margin-top:10px;height:35px;line-height:35px;font-size:16px;}
+ .index-content li{padding-top:15px;}
+ .index-content li a{padding:10px;font-size:17px;}
+ .slider_min .caption h1, .index-content h1{font-size:4.6vw;}
+ .intro-attachment li{ width: 100%; }
+ .content-intro{ padding-bottom: 30px; }
+ #sync2 .owl-nav{ display: none; }
+ .intro_banner h1{ top:17%; }
+
+}
+
+@media screen and ( max-width: 480px) {
+ .login-left{width:100%;background:url('../images/login-image.jpg') no-repeat;background-size:cover;}
+ .login-right{display: none;}
+ .login-form{background:rgba(255,255,255,0.85);padding:20px;box-sizing:border-box;}
+ .checkbox-m{width:100%;}
+ .checkb{padding-top:0px;}
+ .login-form{width:90%;}
+ .slider_min .caption span{display: none;}
+ footer{text-align: center;padding-bottom:10px;}
+ footer ul{float: none;margin:0px;}
+ footer ul li{float: none;display: inline-block;padding:10px 5px;margin-left:0px;}
+}
+
+@media screen and ( max-width: 414px) {
+header .logo{width:100%;text-align: center;}
+.login-m{width:100%;}
+.login-m ul{margin:0px auto;text-align: center;}
+.login-m li{float: none;display: inline-block;padding-left:10px;padding-right:10px;}
+.login-regter-b {display: inline-block;text-align: center;width:100%;float: none;}
+.login-regter-b a{display: inline-block;text-align:center;margin-left:10px;margin-right:10px;float: none;}
+.owl-theme .owl-nav.disabled + .owl-dots{display: none;}
+.heading{ font-size: 20px; }
+}
+
+@media screen and ( max-width: 375px) {
+	.intro-video-bg button{ padding: 12px 8px; }
+	.intro-video-bg button .fa-chevron-left{ padding-right: 8px; }
+	.intro-video-bg h3{ font-size: 28px; }
+}
+

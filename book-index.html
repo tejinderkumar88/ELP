@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+   <head>
+      <title>ELP</title>
+      <!-- Required meta tags -->
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <!-- Bootstrap CSS -->
+      <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700,800" rel="stylesheet">
+      <link rel="stylesheet" href="css/font-awesome.min.css" />
+      <link rel="stylesheet" href="css/style.css" />
+      <link rel="stylesheet" href="fonts/fonts.css" />
+      <link rel="stylesheet" href="css/media_queries.css" />
+      <link rel="stylesheet" href="css/owl.carousel.min.css" />
+   </head>
+   <body>
+      <!-- header -->
+      <header>
+         <div class="container clearfix">
+            <div class="logo">
+               <a href="#"><img src="images/logo.png" alt="#"/></a>
+            </div>
+            <div class="login-m">
+              <ul>
+                <li><a href="#"><span>KS</span>&nbsp;&nbsp;Kevin Spacey</a></li>
+                <li><a href="#"><i class="fa fa-sign-out" aria-hidden="true"></i>&nbsp;&nbsp;logout</a></li>
+              </ul>
+            </div>
+         </div>
+      </header>
+      <!-- header End -->
+      <!-- index Content Start -->
+      <Section class="index-content">
+        <div class="container">
+          <h1>Table of content</h1>
+           <ul>
+             <li><a href="#" class="activ">beginning<i class="fa fa-arrow-right" aria-hidden="true"></i></a></li>
+             <li><a href="#">INTRODUCTION<i class="fa fa-arrow-right" aria-hidden="true"></i></a></li>
+             <li><a href="#">THE CYCLE<i class="fa fa-arrow-right" aria-hidden="true"></i></a></li>
+             <li><a href="#">BECOMING<i class="fa fa-arrow-right" aria-hidden="true"></i></a></li>
+             <li><a href="#">EMPOWER<i class="fa fa-arrow-right" aria-hidden="true"></i></a></li>
+             <li><a href="#">UNITE<i class="fa fa-arrow-right" aria-hidden="true"></i></a></li>
+             <li><a href="#">ELEVATE<i class="fa fa-arrow-right" aria-hidden="true"></i></a></li>
+             <li><a href="#">your path forward<i class="fa fa-arrow-right" aria-hidden="true"></i></a></li>
+           </ul>
+        </div>
+      </Section>
+      <!-- index Content End -->
+      <!-- Footer Start -->
+      <footer>
+        <div class="container">
+            <span>&copy; 2017 Elevating Leadership Program. All Rights Reserved.</span>
+            <ul>
+               <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+               <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+               <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+               <li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+            </ul>
+        </div>
+      </footer>
+      <!-- Footer End -->
+      <script src="js/jquery.min.js"></script>
+      <script src="js/owl.carousel.min.js"></script>
+      <script>
+         $(document).ready(function() {
+           var owl = $('.owl-carousel');
+           owl.owlCarousel({
+             items: 1,
+             loop: true,
+             autoplay: true,
+             autoplayTimeout: 1000,
+             autoplayHoverPause: true
+           });
+           $('.play').on('click', function() {
+             owl.trigger('play.owl.autoplay', [1000])
+           })
+           $('.stop').on('click', function() {
+             owl.trigger('stop.owl.autoplay')
+           })
+         })
+      </script>
+   </body>
+</html>
+
